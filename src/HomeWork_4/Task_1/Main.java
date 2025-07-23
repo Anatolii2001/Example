@@ -10,8 +10,8 @@ import java.util.Scanner;
 буквой «q».
  */
 class Main {
-    public static void main(String[] ignoredArgs) {
-        Scanner sc = new  Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Введите букву английского алфавита");
         String letter = sc.next().toLowerCase();
         String[] alphabet = {"q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f",
