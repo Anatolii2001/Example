@@ -1,7 +1,10 @@
 package Аttestation_01;
 
 import java.util.*;
-
+/*
+Необходимо реализовать приложение, принимающее список
+пользователей, продуктов и обрабатывающее покупку пользователя.
+ */
 class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

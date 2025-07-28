@@ -17,7 +17,7 @@ class Person {
             throw new IllegalArgumentException("Имя не может быть короче 3 символов");
         }
         if (money < 0) {
-            throw new IllegalArgumentException("Деньги не могут быть отрицательными");
+            throw new IllegalArgumentException("Деньги не могут быть отрицательным числом");
         }
         this.name = name;
         this.money = money;

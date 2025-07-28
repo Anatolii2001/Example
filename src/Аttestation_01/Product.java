@@ -8,7 +8,7 @@ class Product {
 
     public Product(String name, double price) {
         if (name == null || name.isEmpty()) {
-            throw new IllegalArgumentException("Название продукта не может быть пустой строкой");
+            throw new IllegalArgumentException("Название продукта не может быть пустым");
         }
         if (price < 0) {
             throw new IllegalArgumentException("Стоимость продукта не может быть отрицательным числом");
