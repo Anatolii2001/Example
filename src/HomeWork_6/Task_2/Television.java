@@ -5,10 +5,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-/*
-Реализовать класс Телевизор. У класса есть поля, свойства и методы.
-Проверить работу в классе App, методе main.
- */
 class Television {
     private final String brand;
     private final int screenSize;
