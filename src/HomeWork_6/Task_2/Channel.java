@@ -13,7 +13,6 @@ class Channel {
         this.program = program;
     }
 
-    // Getters and Setters
     public String getTitle() {
         return title;
     }

@@ -13,7 +13,6 @@ class Program {
         this.viewers = viewers;
     }
 
-    // Getters and Setters
     public String getName() {
         return name;
     }
