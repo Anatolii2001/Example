@@ -44,7 +44,8 @@ class Person {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return Double.compare(money, person.money) == 0 && Objects.equals(name, person.name) && Objects.equals(products, person.products);
+        return Double.compare(money, person.money) == 0 && Objects.equals(name, person.name) &&
+                Objects.equals(products, person.products);
     }
 
     @Override

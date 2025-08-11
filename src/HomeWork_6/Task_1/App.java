@@ -100,7 +100,8 @@ class App {
 
         // Для каждого покупателя предлагаем выбирать продукты
         for (Person person : persons) {
-            System.out.println("Покупатель " + person.getName() + ", выбирайте продукты (введите название продукта или END для завершения):");
+            System.out.println("Покупатель " + person.getName() +
+                    ", выбирайте продукты (введите название продукта или END для завершения):");
 
             while (true) {
                 String productName = scanner.nextLine().trim();
